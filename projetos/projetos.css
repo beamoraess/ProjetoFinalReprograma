@@ -1,0 +1,55 @@
+.navbar{
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.logo-projetos{
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: rgb(220, 53, 69);
+}
+
+.card {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#cursos{
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.card-img-top{
+    width: 500px;
+}
+
+.row-cards{
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+
+.card-projects{
+    margin: 30px;
+}
+
+@media (min-width: 350px) {
+    .container {
+      max-width: 360px;
+    }
+
+   #cursos{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+  }

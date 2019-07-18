@@ -1,0 +1,78 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;  
+}
+
+h1{
+    font-family: 'Rufina', serif;
+    letter-spacing: 2px;
+}
+
+.navbar{
+    min-height: 50px;
+    background-color: rgba(247, 243, 243, 0.39);
+    padding-bottom: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    text-transform: uppercase;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.logo-forum{
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+input {
+  width: 800px;
+  width: 494px;
+  border-radius: 5%;
+}
+
+.input-question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0;
+}
+
+.input-question input {
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.form-invisivel {
+    display: none;
+}
+
+#btn-question{
+    width: 200px;
+    margin-top: 20px; 
+}
+
+.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: rgb(220, 53, 69);
+}
+
+.card-border{
+    border-top-width: thick;
+    border-top-color: #dc3545;
+}
+
+.text-description{
+    width: 500px;
+    height: 100px;
+}
